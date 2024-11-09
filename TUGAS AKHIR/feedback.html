@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javanese Food - Feedback</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">JOWO</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="content.html">Food Guide</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container">
+            <h1 style="margin: 2rem 0; text-align: center;">Share Your Thoughts</h1>
+            <form class="feedback-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="favorite-food">Favorite Javanese Food</label>
+                    <select id="favorite-food" required>
+                        <option value="">Select one</option>
+                        <option value="Gudeg">Gudeg</option>
+                        <option value="Lemper">Lemper</option>
+                        <option value="Tumpeng">Tumpeng</option>
+                        <option value="Nasi Gandul">Nasi Gandul</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit">Submit Feedback</button>
+            </form>
