@@ -1,0 +1,4 @@
+Web saya menerangkan tentang makanan khas dari JAWA dengan Web yang berjudul JOWO.
+Pada bagian Home terdapat display makanannya dan deskripsi singkat mengenai makanannya.
+Pada bagian Food Guide terdapat makanan lainnya dan adad juga rentang harga nya.
+dan yang terakhir ada feedback dari user yang telah mencoba makanannya.
